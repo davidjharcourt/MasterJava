@@ -1,0 +1,20 @@
+package java_basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+		
+		System.out.println("gibberish");
+		printSomeJunk("This is some data");
+
+	}
+	
+	public static void printSomeJunk(String argument) {
+		System.out.println("Some bla bla bla " + argument);
+	}
+	
+	public static void printSomeJunk(int argument) {
+		System.out.println("Some bla bla bla " + argument);
+	}
+
+}
