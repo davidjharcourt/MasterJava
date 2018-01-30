@@ -13,8 +13,7 @@ public class LearningMethods {
 		int myvar = MyUtils.add10(99)+1000;
 		System.out.println(myvar);
 		System.out.println(myvar2);
-		int myvar3 = ExampleClass.doSomething();
-		System.out.println(myvar3);
+		ExampleClass.doSomething();
 
 	}
 	
